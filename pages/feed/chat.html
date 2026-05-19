@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+</head>
+
+<body style="margin:0; font-family:Poppins, sans-serif; background-color:#f1f1f0;">
+    <nav style="background-color:white; padding:15px 30px; border-bottom:1px solid #ddd;">
+        <span style="display:inline-block;">
+            <img src="../../imagenes/LogoPrincipal.png" 
+                 style="width:45px; height:45px; border-radius:50px; vertical-align:middle;">
+            <span style="font-size:24px; color:#1f2d4d; font-weight:bold; vertical-align:middle; margin-left:10px;">
+                Daat Devotional
+            </span>
+        </span>
+        <span style="margin-left:60px;">
+            <a href="inicio.html" style="text-decoration:none; color:#3a4e7a; margin-right:30px;">Inicio</a>
+            <a href="grupos.html" style="text-decoration:none; color:#3a4e7a; margin-right:30px;">Grupos</a>
+            <a href="foros.html" style="text-decoration:none; color:#3a4e7a; margin-right:30px;">Foros</a>
+            <a href="chat.html" style="text-decoration:none; color:#3a4e7a; font-weight:bold;">Chat</a>
+        </span>
+        <span style="float:right;">
+            <a href="../usuario/perfil.html">
+                <img src="../../imagenes/Perfil.png" 
+                     style="width:40px; height:40px; border-radius:50%; vertical-align:middle;">
+            </a>
+            <span style="margin:0 15px; color:#3a4e7a;">jhon32</span>
+            <a href="../../index.html">
+                <img src="../../imagenes/Salir.png" 
+                     style="width:22px; height:22px; vertical-align:middle;">
+            </a>
+        </span>
+    </nav>
+
+    <section class="Contendor principal" style="width:86%; height:690px; margin:25px auto; background:white; border-radius:20px; overflow:hidden; box-shadow:0 0 10px rgba(0,0,0,0.08);">
+        <div style="width:33%; height:100%; display:inline-block; vertical-align:top; border-right:1px solid #d5ddeb;">
+            <div style="padding:25px;">
+                <h2 style="color:#0f2b50;">Mensajes</h2>
+                <input type="text" placeholder="Buscar conversaciones..."
+                    style="width:94%; padding:14px; border:1px solid #c8d2e2; border-radius:12px; font-size:16px;">
+            </div>
+
+            <div class="Contacto1" style="background:#dbe6f5; padding:20px; border-bottom:1px solid #cfd8e6;">
+
+                <img src="../../imagenes/Perfil.png"
+                     style="width:50px; height:50px; border-radius:50%; vertical-align:top;">
+
+                <div style="display:inline-block; margin-left:15px;">
+                    <h3 style="margin:0; color:#0f2b50;">Pastor David</h3>
+                    <p style="margin:6px 0; color:#3a4e7a;">Excelente reflexión sobre Romanos 8</p>
+                    <span style="color:#5b7db6;">En línea</span>
+                </div>
+            </div>
+
+            <div class="Contacto2" style="padding:20px; border-bottom:1px solid #cfd8e6;">
+                <img src="../../imagenes/Perfil.png"
+                     style="width:50px; height:50px; border-radius:50%; vertical-align:top;">
+                <div style="display:inline-block; margin-left:15px;">
+                    <h3 style="margin:0; color:#0f2b50;">María González</h3>
+                    <p style="margin:6px 0; color:#3a4e7a;">¿Podrías compartir ese estudio?</p>
+                    <span style="color:#5b7db6;">Hace 2h</span>
+                </div>
+            </div>
+
+            <div class="Contacto3" style="padding:20px;">
+                <img src="../../imagenes/Perfil.png"
+                     style="width:50px; height:50px; border-radius:50%; vertical-align:top;">
+                <div style="display:inline-block; margin-left:15px;">
+                    <h3 style="margin:0; color:#0f2b50;">Ana Martínez</h3>
+                    <p style="margin:6px 0; color:#3a4e7a;">Gracias por la recomendación</p>
+                    <span style="color:#5b7db6;">Hace 1 día</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- PANEL DERECHO -->
+        <div class="Panel Derecho" style="width:66%; height:100%; display:inline-block; vertical-align:top;">
+            <div style="padding:20px; border-bottom:1px solid #d5ddeb;">
+                <img src="../../imagenes/Perfil.png"
+                     style="width:50px; height:50px; border-radius:50%; vertical-align:middle;">
+                <span style="font-size:22px; color:#0f2b50; margin-left:15px;">Pastor David</span>
+                <br>
+                <span style="margin-left:68px; color:#5b7db6;">En línea</span>
+            </div>
+
+            <div class="Mensajes" style="height:460px; padding:20px;">
+                <div style="background:#dbe6f5; width:50%; padding:15px; border-radius:15px; margin-bottom:20px;">
+                    Hola! Vi tu publicación sobre Romanos 8. Muy interesante perspectiva.
+                    <br><br>
+                    <span style="color:#5b7db6;">10:00 AM</span>
+                </div>
+                <div style="background:#324d82; color:white; width:42%; padding:15px; border-radius:15px; margin-left:53%; margin-bottom:20px;">
+                    Muchas gracias! Es un pasaje muy profundo.
+                    <br><br>
+                    <span style="color:#dbe6f5;">10:15 AM</span>
+                </div>
+                <div style="background:#dbe6f5; width:32%; padding:15px; border-radius:15px;">
+                    Excelente reflexión sobre Romanos 8
+                    <br><br>
+                    <span style="color:#5b7db6;">10:30 AM</span>
+                </div>
+            </div>
+
+            <div class="Input Mensaje" style="padding:20px; border-top:1px solid #d5ddeb;">
+                <input type="text" placeholder="Escribe un mensaje..."
+                    style="width:78%; padding:15px; border:1px solid #c8d2e2; border-radius:12px; font-size:16px;">
+                <button style="background:#324d82; color:white; border:none; padding:15px 30px; border-radius:12px; margin-left:10px; font-size:16px;">
+                    Enviar
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align:center; padding:20px; color:#3a4e7a;">
+        <p>&copy; 2026 Daat Devotional - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
